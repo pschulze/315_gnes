@@ -1,0 +1,112 @@
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0%;
+  width: 100%;
+  background-color: #f0f3bd;
+
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.flex-column-3 {
+  max-width: 33%;
+  min-width: 33%;
+  overflow: hidden;
+}
+
+.flex-column-3 image {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.fill-remaining {
+  flex: auto;
+}
+
+#header {
+  background-color: #05668d;
+}
+
+#body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footer {
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.header-div {
+  background-color: transparent;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.header-title-text {
+  color: #f0f3bd;
+}
+
+.header-text {
+  color: #f0f3bd;
+  text-decoration: none;
+}
+
+.header-text:hover {
+  color: #02c39a;
+}
+
+.content {
+  color: #05668d;
+  align-items: center;
+}
+
+.shrimp-images {
+
+}
+
+.shrimp-image {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.shrimp-type-table {
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+
+  border-color: #05668d;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+
+.shrimp-type-table th {
+  padding: 5px;
+  border-color: #05668d;
+  background-color: #028090;
+  color: #f0f3bd;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.shrimp-type-table td {
+  padding: 5px;
+  border-color: #05668d;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.table-image {
+  width: 100%;
+  display: block;
+}
