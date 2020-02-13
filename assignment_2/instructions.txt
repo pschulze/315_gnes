@@ -5,3 +5,6 @@ B03
 https://seng513.pschulze.dev/assignment_2
 
 Tested with Firefox and Chrome on desktop and mobile.
+
+Site is deployed on an EC2 instance running Nginx as a web server.
+To deploy a new version of the site, just pull the latest version of the repository to the EC2 instance.
