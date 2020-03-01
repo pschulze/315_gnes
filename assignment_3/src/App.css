@@ -1,0 +1,23 @@
+#root {
+  display: flex;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.message-box {
+  overflow: auto;
+  height: 0px;
+}
+
+.message-box > :first-child {
+  margin-top: auto !important;
+}
+
+.user-box {
+  overflow: auto;
+  height: 0px;
+}
+
