@@ -42,7 +42,7 @@ app.get('/init', (req, res) => {
 
     users[newUser.userId] = newUser;
 
-    res.cookie('userId', newUser.userId);
+    res.cookie('userId', newUser.userId, { maxAge: 60 * 60 * 1000 });
     res.send(JSON.stringify(newUser));
   }
 });
